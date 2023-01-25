@@ -1,0 +1,16 @@
+[package]
+name = "my-project"
+version = "0.1.0"
+authors = ["runner"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+aes-gcm = "0.10.1"
+rand_chacha = "0.3.1"
+magic-crypt = "3.1.12"
+crypto-mac = "0.11.1"
+hmac = "0.12.1"
+sha2 = "0.10.6"
